@@ -1,0 +1,27 @@
+#!/bin/bash
+
+mkdir my_project
+cd my_project
+
+echo "this is file number 1" > file1.txt
+echo "hello this is number 2" > file2.txt
+echo "trial trial trial" > notes.txt
+
+echo "Here are my files:"
+ls
+
+echo ""
+echo "Searching for the word 'trail'..."
+grep "trial" notes.txt
+
+echo ""
+echo "Searching for 'hello'..."
+grep "hello" file2.txt
+
+chmod 444 notes.txt
+
+echo "Now showing file details:"
+ls -l
+
+echo ""
+echo "Finished number 2 assignment"
