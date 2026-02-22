@@ -1,0 +1,10 @@
+Start
+Set list = adding numbers like[5, 3, 10, 8, 2]
+Set max_num = first item in list
+For each number in list starting from second
+If number > max_num
+Set max_num = number
+End if
+End for
+Print max_num
+End
